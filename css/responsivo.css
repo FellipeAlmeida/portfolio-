@@ -1,0 +1,80 @@
+@media screen and (max-width: 1032px) {
+    .cabecalho {
+        justify-content: center;
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobreMim-btn {
+        width: 80px;
+    }
+
+    .informacoes {
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    .home a {
+        width: 60%;
+    }
+
+    #portfolio {
+        border: none;
+        text-align: center;
+    }
+
+    .projetoslinha1 {
+        flex-direction: column;
+    }
+
+    .projetoslinha2 {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .projeto2, .projeto3, .projeto4 {
+        margin-top: 100px;
+    }
+
+    #sobre-mim {
+        border: none;
+    }
+
+    .sobreMim-informacoes {
+        padding: 0px;
+        width: 50%;
+    }
+
+    .sobreMim-informacoes p {
+        width: 100%;
+    }
+
+    .foto {
+        width: 250px;
+        height: 350px;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    .foto {
+        visibility: hidden;
+    }
+
+    .informacoes {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px ;
+    }
+
+    .sobreMim-btn {
+        width: 90px;
+    }
+
+    .informacoes a {
+        width: 90%;
+        text-align: center;
+    }
+}

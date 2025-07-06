@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/responsivo.css">
+</head>
+<body>
+    <a target="_blank" href="mailto:almeidafellipe237@gmail.com?subject=Trabalho&body=" class="bi bi-envelope-at" id="btn-contato"></a>
+
+    <header class="cabecalho">
+        <div class="btn">
+            <a href="#home" class="home-btn">Home</a>
+            <a href="#portfolio" class="portfolio-btn">Portfólio</a>
+            <a href="#sobre-mim" class="sobreMim-btn">Sobre Mim</a>
+        </div>
+
+        <div class="redesSociais-btn">
+            <a target="_blank" href="https://github.com/FellipeAlmeida" class="bi bi-github" id="github-btn"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/fellipe-almeida-143923298/" class="bi bi-linkedin" id="linkedin-btn"></a>
+        </div>
+    </header>
+    <section class="home" id="home">
+       
+
+        <div class="informacoes">
+            <h3>Olá,</h3>
+            <h1>Meu nome é <br>Fellipe Almeida </h1>
+            <p class="vocacao">-Desenvolvedor</p>
+            <p class="texto-eu">Sou um desenvolvedor de 18 anos, ainda estudando, mas posso criar várias coisas pra você! <br>Como um chatbot para automatizar certos processos, ou uma landing page interativa para o seu negócio. </p>
+            <a href="#portfolio">VEJA MEU PORTFÓLIO!</a>
+        </div>
+        <div class="foto-fundo">
+            <img src="./imagens/WhatsApp Image 2025-07-04 at 07.05.45 (1).jpeg" alt="" class="foto">
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h1>PORTFÓLIO</h1>
+        <div class="projetoslinha1">
+            <div class="projeto1"> 
+                <p>Recriação do site de vendas antigo do GTAV. Feito com html e css.</p>
+                <a href="https://fellipealmeida.github.io/projeto-gta/" target="_blank">Clique aqui para acessar o site</a>
+                <img src="./imagens/PROJETO-GTA.png" alt="" class="imagem1">
+                <img src="./imagens/Captura de tela 2024-12-27 222912.png" alt="" class="imagem2">
+                <div class="btn-passaImagem">
+                    <button href="" class="bi bi-arrow-right" id="btnImagem-Direita"></button>
+                    <button href="" class="bi bi-arrow-left" id="btnImagem-esquerda"></button>
+                </div>
+                <hr>
+            </div>
+
+            <div class="projeto2"> 
+                <p>Land page para divulgação de produto, feito com html, css e um pouco de javascript.</p>
+                <a href="https://suamelhorversao2025.com/" target="_blank">Clique aqui para acessar o site</a>
+                <img src="./imagens/Captura de tela 2024-12-28 004856.png" alt="" class="imagem3">
+                <img src="./imagens/Captura de tela 2024-12-28 004913.png" alt="" class="imagem4">
+                <div class="btn-passaImagem2">
+                    <button href="" class="bi bi-arrow-right" id="btnImagem-Direita2"></button>
+                    <button href="" class="bi bi-arrow-left" id="btnImagem-esquerda2"></button>
+                </div> 
+                <hr>
+            </div>
+        </div>
+
+        <div class="projetoslinha2">
+            <div class="projeto3"> 
+                <p>Um chatbot criado com o objetivo de ensinar sobre educação fiscal para toda a população brasileira. Integrado com o Gemini (IA do google) e interface feita com streamlit (biblioteca python).</p>
+                <a href="https://chatfernandabot.streamlit.app/" target="_blank">Clique aqui para acessar o site</a>
+                <img src="./imagens/Captura de tela 2024-12-28 005803.png" alt="" class="imagem5">
+                <img src="./imagens/Captura de tela 2024-12-28 010314.png" alt="" class="imagem6">
+                <div class="btn-passaImagem3">
+                    <button href="" class="bi bi-arrow-right" id="btnImagem-Direita3"></button>
+                    <button href="" class="bi bi-arrow-left" id="btnImagem-esquerda3"></button>
+                </div>
+                <hr>
+            </div>
+
+            <div class="projeto4"> 
+                <p>Site criado com o objetivo de promover um projeto escolar, realizado em abril de 2024.</p>
+                <a href="https://fellipealmeida.github.io/Revista-WSC/#conheca-revista" target="_blank">Clique aqui para acessar o site</a>
+                <img src="./imagens/Captura de tela 2025-01-03 191650.png" alt="" class="imagem7">
+                <img src="./imagens/Captura de tela 2025-01-03 191701.png" alt="" class="imagem8">
+                <div class="btn-passaImagem4">
+                    <button href="" class="bi bi-arrow-right" id="btnImagem-Direita4"></button>
+                    <button href="" class="bi bi-arrow-left" id="btnImagem-esquerda4"></button>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre-mim" id="sobre-mim">
+        <h1>SOBRE MIM</h1>
+        <div class="sobreMim-informacoes">
+            <div class="texto">
+                <P>Meu nome é Fellipe, tenho 18 anos e busco oportunidades no setor de T.I, especialmente na área de programação. Gosto muito de programar e estudo esse campo por meio de realização de projetos, e atualmente estou cursando Análise e Desenvolvimento de Sistemas no IFCE. As tecnologias as quais já utilizei e tenho alguma familiaridade são: python, javascript, html e css <br><br> Me envie um email para descobrir mais detalhes da minha trajetória até aqui e para ver o meu currículo!</P>
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
